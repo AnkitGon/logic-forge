@@ -1,0 +1,85 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Laravel
+/vendor
+/node_modules
+/public/build
+/public/hot
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor
+composer.phar
+
+# NPM
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# PHPUnit
+.phpunit.cache
+coverage/
+.phpunit.result.cache
+
+# Pest
+.pest.cache
+
+# Laravel Pint
+.pint.cache
+
+# PHPStan
+.phpstan.cache
+
+# Rector
+rector.php.cache
+
+# IDE Helpers
+.phpactor.json
+
+# Logs
+*.log
+
+# Database
+*.sqlite
+database/database.sqlite
+
+# Testing
+/.phpunit.result.cache
+
+# Build artifacts
+dist/
+
+# Misc
+*.bak
+*.tmp
+*.temp
